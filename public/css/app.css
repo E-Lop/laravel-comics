@@ -83,6 +83,7 @@ li a {
 
 .comics-section {
   background-color: #1c1c1c;
+  padding-bottom: 10px;
 }
 .comics-section .container {
   position: relative;
@@ -129,5 +130,17 @@ h2 {
 }
 .current_series_btn a {
   font-size: 1.2rem;
+  color: white;
+}
+
+.load_more_btn {
+  width: 120px;
+  margin: 0 auto;
+  background-color: #0282f9;
+  text-align: center;
+  padding: 5px 10px;
+}
+.load_more_btn a {
+  font-size: 0.9rem;
   color: white;
 }

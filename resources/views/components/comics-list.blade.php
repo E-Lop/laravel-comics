@@ -12,6 +12,8 @@
             </div>
         </div>
     </div>
-    
+    <div class="load_more_btn">
+        <a href="#">LOAD MORE</a>
+    </div>
         
 </section>

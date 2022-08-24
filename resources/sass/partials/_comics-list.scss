@@ -1,5 +1,6 @@
 .comics-section {
     background-color: #1c1c1c;
+    padding-bottom: 10px;
     .container {
         position: relative;
     }
@@ -40,6 +41,17 @@ h2 {
     left: 0;
     a {
         font-size: 1.2rem;
+        color: white;
+    }
+}
+.load_more_btn {
+    width: 120px;
+    margin: 0 auto;
+    background-color: $main_color;
+    text-align: center;
+    padding: 5px 10px;
+    a {
+        font-size: 0.9rem;
         color: white;
     }
 }
