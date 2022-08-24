@@ -25,3 +25,44 @@ a {
   text-decoration: none;
   color: black;
 }
+
+section {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* parte sinistra del logo */
+.image-logo {
+  width: 60px;
+}
+
+/* parte destra di navigazione */
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 30px;
+  position: relative;
+}
+li a {
+  text-transform: uppercase;
+}
+
+/* .underline {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: $main_color;
+    left: 0;
+    top: 300%;
+    display: none;
+}
+.current + .underline {
+    display: block;
+} */
+.current {
+  color: #0282f9;
+}
