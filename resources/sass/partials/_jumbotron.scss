@@ -1,0 +1,12 @@
+.jumbosection {
+    height: 300px;
+    //   background-color: lightcoral;
+    .bg_image {
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/jumbotron.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
