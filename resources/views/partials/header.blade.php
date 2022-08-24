@@ -1,7 +1,7 @@
 <header>
     <div>
         <div class="container">
-          <section>
+          <section class="header_section">
             <!-- parte sinistra con logo -->
             <div class="col-sx">
               <div class="image-logo">
