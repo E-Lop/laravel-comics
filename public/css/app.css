@@ -84,9 +84,13 @@ li a {
 .comics-section {
   background-color: #1c1c1c;
 }
+.comics-section .container {
+  position: relative;
+}
 
 .comics-list {
   width: 100%;
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -111,5 +115,19 @@ img {
 h2 {
   padding-top: 2px;
   font-size: 0.9rem;
+  color: white;
+}
+
+.current_series_btn {
+  width: 180px;
+  background-color: #0282f9;
+  text-align: center;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+.current_series_btn a {
+  font-size: 1.2rem;
   color: white;
 }

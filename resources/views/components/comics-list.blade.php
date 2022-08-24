@@ -7,6 +7,9 @@
                     <h2>{{ $comicbook['series'] }}</h2>
                 </div>    
             @endforeach
+            <div class="current_series_btn">
+                <a href="#">CURRENT SERIES</a>
+            </div>
         </div>
     </div>
     
