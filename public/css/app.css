@@ -63,18 +63,20 @@ li a {
   text-transform: uppercase;
 }
 
-/* .underline {
-    position: absolute;
-    height: 5px;
-    width: 100%;
-    background-color: $main_color;
-    left: 0;
-    top: 300%;
-    display: none;
+.underline {
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: #0282f9;
+  left: 0;
+  top: 300%;
+  display: none;
 }
+
 .current + .underline {
-    display: block;
-} */
+  display: block;
+}
+
 .current {
   color: #0282f9;
 }

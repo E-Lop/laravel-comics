@@ -17,6 +17,7 @@
                   </li>
                   <li>
                     <a class="current" href="#">comics</a>
+                    <span class="underline"></span>
                   </li>
                   <li>
                     <a href="#">movies</a>

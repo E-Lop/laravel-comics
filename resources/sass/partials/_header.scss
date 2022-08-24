@@ -21,7 +21,7 @@ li {
     }
 }
 
-/* .underline {
+.underline {
     position: absolute;
     height: 5px;
     width: 100%;
@@ -32,7 +32,7 @@ li {
 }
 .current + .underline {
     display: block;
-} */
+}
 .current {
     color: $main_color;
 }
