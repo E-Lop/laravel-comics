@@ -16,7 +16,7 @@
                     <a href="#">characters</a>
                   </li>
                   <li>
-                    <a class="current" href="#">comics</a>
+                    <a class="current" href="{{ route('comics') }}">comics</a>
                     <span class="underline"></span>
                   </li>
                   <li>
