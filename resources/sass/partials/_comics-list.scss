@@ -17,14 +17,15 @@
     padding: 10px;
     width: calc((100% / 6) - 5px);
     margin: 2px;
+    img {
+        widows: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        object-position: top;
+        overflow: hidden;
+    }
 }
-img {
-    widows: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    object-position: top;
-    overflow: hidden;
-}
+
 h2 {
     padding-top: 2px;
     font-size: 0.9rem;

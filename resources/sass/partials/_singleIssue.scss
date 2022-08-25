@@ -34,11 +34,14 @@
 .col_dx {
     width: 20%;
     padding-block: 50px;
+    img {
+        padding: 12px;
+    }
 }
 .current_issue_cover {
     width: 180px;
     position: absolute;
-    top: -200px;
+    top: -290px;
     left: 0;
 }
 .left-half {

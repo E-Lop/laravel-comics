@@ -18,11 +18,11 @@ Comicbook
                 <p>{{$current_comics['description']}}</p>
             </div>
             <div class="col_dx">
-                <img src="{{ asset('img/adv.jpg') }}" alt="Immagine pubblicitaria">
+                <img src="{{ asset('img/lorem.jpg') }}" alt="Immagine pubblicitaria">
             </div>
         </div>
         <div class="current_issue_cover">
-            <img src="{{ $current_comics["thumb"] }}" alt="{{ $current_comics['title'] }}">
+            <img src="{{ $current_comics['thumb'] }}" alt="{{ $current_comics['title'] }}">
         </div> 
     </div>          
 </section>
@@ -38,7 +38,7 @@ Comicbook
                             @foreach ($current_artists as $artist)
                                 <li><a href="#">{{$artist}}</a></li>
                                 @if (!$loop->last)
-                                    ,
+                                    ,&nbsp;
                                 @endif
                             @endforeach
                         </ul>

@@ -102,8 +102,7 @@ li a {
   width: calc(16.6666666667% - 5px);
   margin: 2px;
 }
-
-img {
+.comic_book_card img {
   widows: 100%;
   aspect-ratio: 1/1;
   -o-object-fit: cover;
@@ -305,11 +304,14 @@ h2 {
   width: 20%;
   padding-block: 50px;
 }
+.col_dx img {
+  padding: 12px;
+}
 
 .current_issue_cover {
   width: 180px;
   position: absolute;
-  top: -200px;
+  top: -290px;
   left: 0;
 }
 
