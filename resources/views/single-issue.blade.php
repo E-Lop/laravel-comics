@@ -36,7 +36,10 @@ Comicbook
                     <div class="artist-list">
                         <ul>
                             @foreach ($current_artists as $artist)
-                                <li><a href="#">{{$artist}}</a>,</li>
+                                <li><a href="#">{{$artist}}</a></li>
+                                @if (!$loop->last)
+                                    ,
+                                @endif
                             @endforeach
                         </ul>
                     </div>
@@ -46,7 +49,10 @@ Comicbook
                     <div class="writer-list">
                         <ul>
                             @foreach ($current_writers as $writer)
-                                <li><a href="#">{{$writer}}</a>,</li>
+                                <li><a href="#">{{$writer}}</a></li>
+                                @if (!$loop->last)
+                                    ,  
+                                @endif
                             @endforeach
                         </ul>
                     </div>
