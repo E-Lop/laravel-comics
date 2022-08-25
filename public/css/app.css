@@ -152,8 +152,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.container {
+.footer-top .container {
   height: 100%;
 }
 
@@ -210,10 +209,12 @@ h2 {
 .downward {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .downward ul {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .downward ul li {
   margin-left: 0;

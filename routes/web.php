@@ -20,6 +20,13 @@ Route::get('/', function () {
 
 })->name('home');
 
+Route::get('/characters', function () {    
+
+  
+    return view('characters');
+
+})->name('characters');
+
 Route::get('/comics', function () {
 
   $all_comics_array = ["comics" => config('comics')];
@@ -30,13 +37,11 @@ Route::get('/comics', function () {
 Route::get('/comics/{id}', function ($id) {
     $comics_array = config('comics');
     $current_comics = [];
-
     foreach($comics_array as $comicbook) {
       if($comicbook['id'] == $id) {
         $current_comics = $comicbook;
       }
     }
-
     $data = [
       'current_comics' => $current_comics,
       'current_artists' => $current_comics['artists'],

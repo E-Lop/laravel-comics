@@ -13,11 +13,12 @@
               <nav>
                 <ul>
                   <li>
-                    <a href="#">characters</a>
+                    <a class="{{ Route::current()->getName() === 'characters' ? 'current' : '' }}" href="{{ route('characters') }}">characters</a>
+                    <span class="{{ Route::current()->getName() === 'characters' ? 'underline' : '' }}"></span>
                   </li>
                   <li>
-                    <a class="current" href="{{ route('comics') }}">comics</a>
-                    <span class="underline"></span>
+                    <a class="{{ Route::current()->getName() === 'comics' ? 'current' : '' }}" href="{{ route('comics') }}">comics</a>
+                    <span class="{{ Route::current()->getName() === 'comics' ? 'underline' : '' }}"></span>
                   </li>
                   <li>
                     <a href="#">movies</a>
