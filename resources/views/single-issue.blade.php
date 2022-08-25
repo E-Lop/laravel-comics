@@ -5,7 +5,8 @@ Comicbook
 @endsection
 
 @section('main_content')
-<section class="comicbook-top-section">
+<div class="main-section">
+    <section class="comicbook-top-section">
     <div class="accent-bar"></div>
     <div class="container">
         <div class="row">
@@ -45,8 +46,23 @@ Comicbook
             </div>
             <div class="right-half">
                 <h2>Specs</h2>
+                <div class="series-row">
+                    <div class="series-tag">Series:</div>
+                    <div class="series-link">
+                        <a href="#">{{$current_comics['series']}}</a>
+                    </div>
+                </div>
+                <div class="price-row">
+                    <div class="price-tag">U.S. Price:</div>
+                    <div class="price-data">{{$current_comics['price']}}</div>
+                </div>
+                <div class="sale-date-row">
+                    <div class="sale-date-tag">On Sale Date:</div>
+                    <div class="sale-date-data">{{$current_comics['sale_date']}}</div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+</div>
 @endsection

@@ -8,12 +8,16 @@
 }
 .row {
     display: flex;
+    justify-content: space-between;
 }
 .comicbook-bottom-section {
+    padding-bottom: 20px;
+    background-color: #f6f6f6;
+    border-top: 1px solid #e9e9e9;
     h2 {
         color: black;
         font-size: 1.5rem;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
 }
 .col_sx {
@@ -37,11 +41,14 @@
     left: 0;
 }
 .left-half {
-    width: 50%;
+    width: 49%;
+}
+.right-half {
+    width: 49%;
 }
 .artist-row {
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
     padding-block: 5px;
     display: flex;
     justify-content: space-between;
@@ -50,12 +57,42 @@
     width: 80%;
 }
 .writer-row {
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #e9e9e9;
     padding-block: 5px;
     display: flex;
     justify-content: space-between;
 }
 .writer-list {
+    width: 80%;
+}
+.series-row {
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    padding-block: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.series-link {
+    width: 80%;
+    a {
+        color: $main_color;
+    }
+}
+.price-row {
+    border-bottom: 1px solid #e9e9e9;
+    padding-block: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.price-data {
+    width: 80%;
+}
+.sale-date-row {
+    border-bottom: 1px solid #e9e9e9;
+    padding-block: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.sale-date-data {
     width: 80%;
 }
