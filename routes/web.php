@@ -38,7 +38,9 @@ Route::get('/comics/{id}', function ($id) {
     }
 
     $data = [
-      'current_comics' => $current_comics
+      'current_comics' => $current_comics,
+      'current_artists' => $current_comics['artists'],
+      'current_writers' => $current_comics['writers']
     ];
     return view('single-issue', $data);
 })->name('single_comics');

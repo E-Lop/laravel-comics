@@ -278,6 +278,7 @@ h2 {
 }
 
 .comicbook-bottom-section {
+  font-size: 0.8rem;
   padding-bottom: 20px;
   background-color: #f6f6f6;
   border-top: 1px solid #e9e9e9;
@@ -331,6 +332,16 @@ h2 {
 .artist-list {
   width: 80%;
 }
+.artist-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.artist-list li {
+  margin-left: 0;
+}
+.artist-list li a {
+  color: #0282f9;
+}
 
 .writer-row {
   border-bottom: 1px solid #e9e9e9;
@@ -341,6 +352,16 @@ h2 {
 
 .writer-list {
   width: 80%;
+}
+.writer-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.writer-list li {
+  margin-left: 0;
+}
+.writer-list li a {
+  color: #0282f9;
 }
 
 .series-row {

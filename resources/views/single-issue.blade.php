@@ -34,13 +34,21 @@ Comicbook
                 <div class="artist-row">
                     <div class="attribution-tag">Art by:</div>
                     <div class="artist-list">
-                        <a href="#">{{implode($current_comics["artists"])}}</a>
+                        <ul>
+                            @foreach ($current_artists as $artist)
+                                <li><a href="#">{{$artist}}</a>,</li>
+                            @endforeach
+                        </ul>
                     </div>
                 </div>
                 <div class="writer-row">
                     <div class="attribution-tag">Written by:</div>
                     <div class="writer-list">
-                        <a href="#">{{implode($current_comics["writers"])}}</a>
+                        <ul>
+                            @foreach ($current_writers as $writer)
+                                <li><a href="#">{{$writer}}</a>,</li>
+                            @endforeach
+                        </ul>
                     </div>
                 </div>
             </div>
