@@ -1,0 +1,36 @@
+.accent-bar {
+    height: 50px;
+    background-color: $main_color;
+}
+
+.container {
+    position: relative;
+}
+.row {
+    display: flex;
+}
+.col_sx {
+    width: 80%;
+    padding-block: 30px;
+}
+.green_price {
+    background-color: #55ba59;
+    margin-block: 5px;
+    padding-block: 5px;
+    padding-left: 10px;
+}
+.col_dx {
+    width: 20%;
+    padding-block: 50px;
+}
+.current_issue_cover {
+    width: 180px;
+    position: absolute;
+    top: -200px;
+    left: 0;
+}
+.artist-row {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-block: 5px;
+}
