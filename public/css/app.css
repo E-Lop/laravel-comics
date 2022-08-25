@@ -276,6 +276,12 @@ h2 {
   display: flex;
 }
 
+.comicbook-bottom-section h2 {
+  color: black;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
 .col_sx {
   width: 80%;
   padding-block: 30px;
@@ -300,8 +306,30 @@ h2 {
   left: 0;
 }
 
+.left-half {
+  width: 50%;
+}
+
 .artist-row {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   padding-block: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-list {
+  width: 80%;
+}
+
+.writer-row {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-block: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.writer-list {
+  width: 80%;
 }

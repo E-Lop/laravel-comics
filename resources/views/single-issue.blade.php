@@ -38,10 +38,14 @@ Comicbook
                 </div>
                 <div class="writer-row">
                     <div class="attribution-tag">Written by:</div>
-
+                    <div class="writer-list">
+                        <a href="#">{{implode($current_comics["writers"])}}</a>
+                    </div>
                 </div>
             </div>
-            <div class="right-half"></div>
+            <div class="right-half">
+                <h2>Specs</h2>
+            </div>
         </div>
     </div>
 </section>
